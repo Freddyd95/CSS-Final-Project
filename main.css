@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
 
-.navbar .navlinks {
-display: flex;
-justify-content: space-between;
-width: 50%;
-list-style: none;
-padding: 0;
-margin: 0 auto;
-}
-
-h5{
-    display: inline;
-
+nav {
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
 
 }
 
-.nav-head {
-    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
