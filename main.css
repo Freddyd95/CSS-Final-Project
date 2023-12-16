@@ -9,6 +9,21 @@ nav {
 
 }
 
+.nav-input > input {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    height: 33px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    box-shadow: none;
+    width: 800px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding-left: 40px;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,8 +31,45 @@ nav {
     font-family: helvetica;
 }
 
+div{
+    display: block;
+}
+
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+.logo {
+    padding: 0;
+    margin-left: 5px;
+    color: #fff;
+    letter-spacing: 0.75px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.flickr-logo {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 0;
+    background-size: contain;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.fa-magnifying-glass:before, fa-search:before {
+    content: "/f002";
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+
+.fa-classic, .fa
