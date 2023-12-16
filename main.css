@@ -24,10 +24,32 @@ nav {
 
 }
 
+.sign-up{
+    margin-right: 25px;
+    background-color: #fff;
+    color: black;
+    padding 7px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: point;
+    border-radius: 3px;
+}
+
+.log-in {
+    background: none;
+    border: none;
+    background-color: none;
+    color: #fff;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 0px 25px 0px 0px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     font-family: helvetica;
 }
 
@@ -72,4 +94,125 @@ div{
     font-weight: 900;
 }
 
-.fa-classic, .fa
+.main-head {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    margin: 0.67em 0;
+    color: white;
+    text-align: center;
+}
+
+.subheader {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+
+}
+
+.start-btn {
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    padding: 0px 20px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.picture-content {
+    display: flex;
+    flex-direction: column;
+    align-items;
+}
+
+.main-content {
+    background: url(https://azensky.github.io/flickr-UI-clone/images/nature-pic.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-stretch: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    background-color: buttonface;
+    padding-block: 1px;
+    padding-inline: 6px;
+}
+
+footer {
+background-color: black;
+color: hsla(0, 0%, 100%, 0.6);
+font-size: 1.2em;
+line-height:1.2em;
+text-align: center;
+height: 8vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.ft-link {
+    color: hsla(0, 0%, 100%, 0.6);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.2em;
+
+}
+
+input [type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}   
+
+.fa-brands {
+    font-family: 400;
+}
+
+.fa-brands {
+    font-family: "Font Awesome 6 Brands";
+    --webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+i {
+    cursor: pointer;
+}
