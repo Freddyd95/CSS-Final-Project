@@ -57,6 +57,7 @@ nav {
     color: white;
     margin-right: 25px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 * {
@@ -156,6 +157,26 @@ div{
     background-position: center center;
     background-size: cover;
     height: 92vh;
+    animation: changeBg ease 15s infinite;
+    animation-direction: alternate;
+}
+
+.main-content {}
+
+@keyframes changeBg {
+    0%
+    100% {
+        background-image: url(https://azensky.github.io/flickr-UI-clone/images/nature-pic.jpg);
+ }
+ 25% {
+    background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Fantasy_Island_Daniel_Cheong.jpg);
+ }
+ 50% {
+    background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/If_Only_We_Could_Turn_Back_Time_Anna_Kwa.jpg);
+ }
+ 75% {
+    background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/benito_druck.jpg);
+ }
 }
 
 button {
